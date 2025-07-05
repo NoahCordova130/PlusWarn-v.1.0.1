@@ -1,11 +1,23 @@
 export const ALERT_TYPES = [
   { key: "TOR", label: "TORNADO WARNING", color: "bg-red-600" },
-  { key: "TOR_EMERGENCY", label: "TORNADO EMERGENCY", color: "bg-fuchsia-600" },
-  { key: "SVR", label: "SEVERE T-STORM WARNING", color: "bg-yellow-500" },
+  { key: “TORR”, label: “OBSERVED TORNADO WARNING”, color: “bg-red-600” },
+  { key: “TORP”, label: “PDS TORNADO WARNING”, color: “bg-purple-600” },
+  { key: "TORE", label: "TORNADO EMERGENCY", color: "bg-fuchsia-600" },
+  { key: "SVR", label: "SEVERE THUNDERSTORM WARNING", color: "bg-yellow-500" },
+  { key: “SVRC”, label: “CONSIDERABLE SEVERE T-STORM WARNING”, color: “bg-yellow-500” },
+  { key: “SVRD”, label: “PDS SEVERE T-STORM WARNING”, color: “bg-yellow-500” },
   { key: "FFW", label: "FLASH FLOOD WARNING", color: "bg-green-500" },
-  { key: "WSW", label: "WINTER STORM WARNING", color: "bg-blue-500" },
-  { key: "TOA", label: "TORNADO WATCH", color: "bg-pink-500" },
-  { key: "SVA", label: "SEVERE T-STORM WATCH", color: "bg-orange-500" },
+  { key: “FFWC”, label: “PDS FLASH FLOOD WARNING”, color: “bg-green-500” },
+  { key: “FFWE”, label: “FLASH FLOOD EMERGENCY”, color: “bg-green-500” },
+  { key: “SQW”, label: “SNOW SQUALL WARNING”, color: “bg-purple-600” },
+  { key: "WSW", label: "WINTER STORM WARNING", color: "bg-fuchsia-600" },
+  { key: “WSA”, label: “WINTER STORM WATCH”, color: “bg-blue-500” },
+  { key: “WWY”, label: “WINTER WEATHER ADVISORY”, color: “bg-blue-500” },
+  { key: “BZW”, label: “BLIZZARD WARNING”, color: “bg-orange-500” },
+  { key: "TOA", label: "TORNADO WATCH", color: "bg-red-600" },
+  { key: "SVA", label: "SEVERE THUNDERSTORM WATCH", color: "bg-yellow-500" },
+  { key: “SMW”, label: “SPECIAL MARINE WARNING”, color: “bg-purple-600”  },
+  { key: “SPS”, label: “SPECIAL WEATHER STATEMENT”, color: “bg-blue-500”  },
 ];
 
 export const colorMap: { [key: string]: { base: string; light: string } } = {
