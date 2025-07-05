@@ -19,6 +19,8 @@ export const ALERT_TYPES = [
   { key: “SMW”, label: “SPECIAL MARINE WARNING”, color: “bg-purple-600”  },
   { key: “SPS”, label: “SPECIAL WEATHER STATEMENT”, color: “bg-blue-500”  },
   { key: "FLS", label: "FLOOD ADVISORY", color: "bg-green-500"  },
+  { key: "FLA", label: "FLOOD WATCH", color: "bg-green-500"  },
+  { key: "FLW", label: "FLOOD WARNING", color: "bg-green-500"  },
 ];
 
 export const colorMap: { [key: string]: { base: string; light: string } } = {
