@@ -7,7 +7,7 @@ export const ALERT_TYPES = [
   { key: “SVRC”, label: “CONSIDERABLE SEVERE T-STORM WARNING”, color: “bg-yellow-500” },
   { key: “SVRD”, label: “PDS SEVERE T-STORM WARNING”, color: “bg-yellow-500” },
   { key: "FFW", label: "FLASH FLOOD WARNING", color: "bg-green-500" },
-  { key: “FFWC”, label: “PDS FLASH FLOOD WARNING”, color: “bg-green-500” },
+  { key: “FFWC”, label: “CONSIDERABLE FLASH FLOOD WARNING”, color: “bg-green-500” },
   { key: “FFWE”, label: “FLASH FLOOD EMERGENCY”, color: “bg-green-500” },
   { key: “SQW”, label: “SNOW SQUALL WARNING”, color: “bg-purple-600” },
   { key: "WSW", label: "WINTER STORM WARNING", color: "bg-fuchsia-600" },
@@ -25,6 +25,7 @@ export const ALERT_TYPES = [
   { key: "TRW", label: "TROPICAL STORM WARNING", color: "bg-fuchisa-600"  },
   { key: "HUA", label: "HURRICANE WATCH", color: "bg-red-500"  },
   { key: "HUW", label: "HURRICANE WARNING", color: "bg-purple-600"  },
+  { key: "EWW", label: "EXTREME WIND WARNING", "bg-orange-500"  }, 
 ];
 
 export const colorMap: { [key: string]: { base: string; light: string } } = {
