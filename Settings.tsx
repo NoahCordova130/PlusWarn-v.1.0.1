@@ -16,7 +16,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "..
 
 const FONT_OPTIONS = [
   { label: "Default", value: "default" },
-  { label: "Serif", value: "serif" },
+  { label: "Outfit", value: "outfit" },
   { label: "Monospace", value: "monospace" },
 ];
 
